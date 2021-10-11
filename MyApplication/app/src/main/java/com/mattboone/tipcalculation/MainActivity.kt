@@ -17,9 +17,9 @@ class MainActivity : AppCompatActivity() {
 
     fun calculateTip (view: View){
         if (binding.billAmount.text.isNotEmpty()) {
-            val tenPercent = (binding.billAmount.text.toString().toFloat())*0.1
-            val fifteenPercent = (binding.billAmount.text.toString().toFloat())*0.15
-            val twentyPercent = (binding.billAmount.text.toString().toFloat())*0.2
+            val tenPercent = (binding.billAmount.text.toString().toFloat())*1.1
+            val fifteenPercent = (binding.billAmount.text.toString().toFloat())*1.15
+            val twentyPercent = (binding.billAmount.text.toString().toFloat())*1.2
             binding.output.text = ("The tips are as follows:\n" +
                     "\n10% = " + tenPercent +
                     "\n15% = " + fifteenPercent +
