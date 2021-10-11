@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Tip Calculator</string>
     <string name="buttonText">Calculate Tips</string>
-    <string name="initText">Tip amount will display here</string>
+    <string name="initText">Tip amount will display here\n\n\n\n</string>
     <string name="defaultInput">Enter Bill Total</string>
 </resources>
