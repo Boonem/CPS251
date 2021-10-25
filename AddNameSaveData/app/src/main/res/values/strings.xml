@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AddName SaveData</string>
+    <string name="hintText">Enter Name</string>
+    <string name="buttonText">Add Name</string>
+</resources>
